@@ -1,0 +1,4 @@
+# range(n) -> create a sequence contain 0, 1, 2, ..., n-1
+# In every loop, i separately equals to 0, 1, 2, ..., n-1, then come into the loop block and execute, until i = n - 1. 
+for i in range(n):
+    print(i * i)
