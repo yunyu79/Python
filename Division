@@ -1,2 +1,5 @@
+# For integer division
 print(a // b)
+
+# For float division
 print(a / b)
