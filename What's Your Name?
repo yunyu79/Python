@@ -1,0 +1,5 @@
+# printf function is a best way to print INT and STRING in a line.
+
+def print_full_name(first, last):
+    # Write your code here
+    print(f'Hello {first} {last}! You just delved into python.')
