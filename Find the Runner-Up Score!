@@ -1,0 +1,11 @@
+# To sort a list by using sorted([list]) OR using [list].sort()
+
+new_arr = list(arr)
+new_list = []
+
+for i in new_arr:
+    if i not in new_list:
+        new_list.append(i)
+
+order_list = sorted(new_list, reverse=True)
+print(order_list[1])
