@@ -1,0 +1,7 @@
+# .split() is to split the STRING into a LIST by a space
+# "".join() is to join all elements in a LIST to a STRING by what put inside the quote mark
+def split_and_join(line):
+    # write your code here
+    new_line = line.split(" ")
+    new_line = "-".join(new_line)
+    return new_line
